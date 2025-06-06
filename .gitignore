@@ -1,7 +1,7 @@
 ### netbeans 
-/build
-/dist
-/nbproject
+/NM107-512Web/dist/
+/NM107-512Web/build/
+/NM107-512Web/nbproject
 
 ### svn
 **/.svn/
