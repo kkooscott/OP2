@@ -1,0 +1,27 @@
+﻿(Tomcat 8.0)
+為公司connection pool 設定檔供參考
+lib的部分因為DB帳號密碼不能明碼，所以增加base64解密。
+
+若要整包上線，記得
+ddlProcess.js 中的 
+//及時上網認領 --Start
+function time(count) {
+	...
+	...
+	...
+	setTimeout(time, 600000);
+}
+//及時上網認領 --End
+
+記得改成
+//及時上網認領 --Start
+function time(count) {
+	...
+	...
+	...
+	setTimeout(time, 3000);
+}
+//及時上網認領 --End
+
+因為在公司就不用到即時一直去查詢，
+署的環境要即時看到上網認領件數所以需頻繁一點。

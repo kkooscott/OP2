@@ -1,0 +1,48 @@
+.toolbars {
+	/*background-image: url(../img/toolbar.jpg);*/
+	/*background-repeat: repeat-x;*/
+	background-color:#59B8FC;
+	border-top: 1px solid #A2D8FC;
+	border-bottom:2px solid #E1E1DF;
+}
+.toolbarItem {
+	text-decoration:none;	
+	cursor:pointer;
+}
+.ddlStyle,
+.ddlStyle:after,
+.ddlStyle:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.blue-google.btn {
+    color: #FFF;
+    background-color: #59B8FC !important;
+	font-size:13px;
+	line-height:22px;
+	text-shadow:#333 !important;
+	margin-top:1px;
+	font-family: Lucida Grande, Lucida Sans, Arial, sans-serif;
+}
+.blue-google.btn:hover {
+    color: #FFF;
+    background-color: #428BCA !important;
+	font-size:13px;
+	line-height:22px;
+	text-shadow:#333 !important;
+	margin-top:1px;
+}
+.blue-google.btn:active, .blue-google.btn.active{
+    color: #FFF;
+    background-color: #2E6DA2 !important;
+	font-size:13px;
+	line-height:22px;
+	text-shadow:#333 !important;
+	margin-top:1px;
+}
+.mapFiller {
+	border-top:1px solid #A8A8A6;
+}

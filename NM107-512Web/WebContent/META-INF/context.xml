@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/NM107-512Web">
+  <Resource auth="Container" driverClassName="com.sybase.jdbc4.jdbc.SybDriver" maxActive="1" maxIdle="1" name="jdbc/OP2IDB" password="syscom#1" type="javax.sql.DataSource" url="jdbc:sybase:Tds:172.16.220.77:5000/OP2IDB?charset=utf8" username="sa"/>
+  <Resource auth="Container" driverClassName="com.sybase.jdbc4.jdbc.SybDriver" maxActive="1" maxIdle="1" name="jdbc/ABDB" password="syscom#1" type="javax.sql.DataSource" url="jdbc:sybase:Tds:172.16.220.77:5000/ABDB?charset=utf8" username="sa"/>
+  <Resource auth="Container" driverClassName="com.sybase.jdbc4.jdbc.SybDriver" maxActive="1" maxIdle="1" name="jdbc/SSDB" password="syscom#1" type="javax.sql.DataSource" url="jdbc:sybase:Tds:172.16.220.77:5000/SSDB?charset=utf8" username="sa"/>
+  <Resource auth="Container" driverClassName="com.sybase.jdbc4.jdbc.SybDriver" maxActive="1" maxIdle="1" name="jdbc/LMDB" password="syscom#1" type="javax.sql.DataSource" url="jdbc:sybase:Tds:172.16.124.23:5000/LMDB?charset=utf8" username="sa"/>
+  <Resource auth="Container" driverClassName="com.sybase.jdbc4.jdbc.SybDriver" maxActive="1" maxIdle="1" name="jdbc/E82DB" password="syscom#1" type="javax.sql.DataSource" url="jdbc:sybase:Tds:172.16.124.23:5000/E82DB?charset=utf8" username="sa"/>
+  </Context>

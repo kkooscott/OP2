@@ -1,0 +1,1026 @@
+
+
+/***
+Portlets
+***/
+/* Basic portlet */
+.portlet {
+  clear: both;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  padding: 0px;
+}
+.portlet > .portlet-title {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+.portlet > .portlet-title:before, .portlet > .portlet-title:after {
+  content: " ";
+  display: table;
+}
+.portlet > .portlet-title:after {
+  clear: both;
+}
+.portlet > .portlet-title > .caption {
+  float: left;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
+}
+.portlet > .portlet-title > .caption > i {
+  float: left;
+  margin-top: 4px;
+  display: inline-block;
+  font-size: 13px;
+  margin-right: 5px;
+  color: #666;
+}
+.portlet > .portlet-body {
+  clear: both;
+  padding: 0;
+}
+
+/* Portlet actions & tools */
+.portlet > .portlet-title > .tools {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  margin-top: 6px;
+  float: right;
+}
+.portlet > .portlet-title > .tools > a {
+  display: inline-block;
+  height: 16px;
+  margin-left: 5px;
+}
+.portlet > .portlet-title > .tools > a.expand {
+  margin-bottom: 2px;
+  background-image: url(../img/portlet-expand-icon.png);
+  width: 14px;
+}
+.portlet > .portlet-title > .tools > a.collapse {
+  margin-bottom: 2px;
+  background-image: url(../img/portlet-collapse-icon.png);
+  width: 14px;
+}
+.portlet > .portlet-title > .tools > a:hover {
+  text-decoration: none;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  opacity: .6;
+  filter: 'alpha(opacity=60)';
+}
+
+
+/* Box portlet */
+.portlet.box {
+  padding: 0px !important;
+}
+.portlet.box > .portlet-title {
+  margin-bottom: 0px;
+  padding: 10px 10px 4px 10px;
+  border-bottom: 1px solid #eee;
+  color: #fff;
+}
+.portlet.box > .portlet-title > .tools {
+  margin-top: 3px;
+}
+.portlet.box > .portlet-title > .tools > a.expand {
+  background-image: url(../img/portlet-expand-icon-white.png);
+}
+.portlet.box > .portlet-title > .tools > a.collapse {
+  background-image: url(../img/portlet-collapse-icon-white.png);
+}
+.portlet.box > .portlet-body {
+  background-color: #fff;
+  padding: 10px;
+}
+
+/**********
+Blue Colors
+***********/
+/***
+Blue Default
+***/
+
+/* Portlet */
+.portlet > .portlet-body.blue,
+.portlet.blue {
+  background-color: #4b8df8;
+}
+
+.portlet.solid.blue > .portlet-title,
+.portlet.solid.blue > .portlet-body {
+  border: 0;
+  color: white;
+}
+.portlet.solid.blue > .portlet-title > .caption > i {
+  color: white;
+}
+
+.portlet.box.blue {
+  border: 1px solid #7cacfa;
+  border-top: 0;
+}
+.portlet.box.blue > .portlet-title {
+  background-color: #4b8df8;
+}
+.portlet.box.blue > .portlet-title > .caption > i {
+  color: white;
+}
+.portlet.box.blue > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #b7d1fc;
+  color: #d0e1fd;
+}
+.portlet.box.blue > .portlet-title > .actions .btn-default:hover, .portlet.box.blue > .portlet-title > .actions .btn-default:focus, .portlet.box.blue > .portlet-title > .actions .btn-default:active, .portlet.box.blue > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #e8f0fe;
+  color: white;
+}
+
+
+/***
+Blue Madison
+***/
+
+/* Portlet */
+.portlet > .portlet-body.blue-madison,
+.portlet.blue-madison {
+  background-color: #578ebe;
+}
+
+.portlet.solid.blue-madison > .portlet-title,
+.portlet.solid.blue-madison > .portlet-body {
+  border: 0;
+  color: white;
+}
+.portlet.solid.blue-madison > .portlet-title > .caption > i {
+  color: white;
+}
+
+.portlet.box.blue-madison {
+  border: 1px solid #7ca7cc;
+  border-top: 0;
+}
+.portlet.box.blue-madison > .portlet-title {
+  background-color: #578ebe;
+}
+.portlet.box.blue-madison > .portlet-title > .caption > i {
+  color: white;
+}
+.portlet.box.blue-madison > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #a8c4dd;
+  color: #bad1e4;
+}
+.portlet.box.blue-madison > .portlet-title > .actions .btn-default:hover, .portlet.box.blue-madison > .portlet-title > .actions .btn-default:focus, .portlet.box.blue-madison > .portlet-title > .actions .btn-default:active, .portlet.box.blue-madison > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #cdddec;
+  color: #dfeaf3;
+}
+
+/***
+Blue Hoki
+***/
+/* Portlet */
+.portlet > .portlet-body.blue-hoki,
+.portlet.blue-hoki {
+  background-color: #67809f;
+}
+
+.portlet.solid.blue-hoki > .portlet-title,
+.portlet.solid.blue-hoki > .portlet-body {
+  border: 0;
+  color: white;
+}
+.portlet.solid.blue-hoki > .portlet-title > .caption > i {
+  color: white;
+}
+
+.portlet.box.blue-hoki {
+  border: 1px solid #869ab3;
+  border-top: 0;
+}
+.portlet.box.blue-hoki > .portlet-title {
+  background-color: #67809f;
+}
+.portlet.box.blue-hoki > .portlet-title > .caption > i {
+  color: white;
+}
+.portlet.box.blue-hoki > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #acb9ca;
+  color: #bbc7d4;
+}
+.portlet.box.blue-hoki > .portlet-title > .actions .btn-default:hover, .portlet.box.blue-hoki > .portlet-title > .actions .btn-default:focus, .portlet.box.blue-hoki > .portlet-title > .actions .btn-default:active, .portlet.box.blue-hoki > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #cbd4de;
+  color: #dbe1e8;
+}
+
+
+/***
+Blue Stell
+***/
+
+/* Portlet */
+.portlet > .portlet-body.blue-steel,
+.portlet.blue-steel {
+  background-color: #4b77be;
+}
+
+.portlet.solid.blue-steel > .portlet-title,
+.portlet.solid.blue-steel > .portlet-body {
+  border: 0;
+  color: white;
+}
+.portlet.solid.blue-steel > .portlet-title > .caption > i {
+  color: white;
+}
+
+.portlet.box.blue-steel {
+  border: 1px solid #7093cc;
+  border-top: 0;
+}
+.portlet.box.blue-steel > .portlet-title {
+  background-color: #4b77be;
+}
+.portlet.box.blue-steel > .portlet-title > .caption > i {
+  color: white;
+}
+.portlet.box.blue-steel > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #9db5dc;
+  color: #b0c3e3;
+}
+.portlet.box.blue-steel > .portlet-title > .actions .btn-default:hover, .portlet.box.blue-steel > .portlet-title > .actions .btn-default:focus, .portlet.box.blue-steel > .portlet-title > .actions .btn-default:active, .portlet.box.blue-steel > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #c3d2e9;
+  color: #d6e0f0;
+}
+
+/***********
+Green Colors
+************/
+/***
+Green Default
+***/
+/* Portlet */
+.portlet > .portlet-body.green,
+.portlet.green {
+  background-color: #35aa47;
+}
+
+.portlet.solid.green > .portlet-title,
+.portlet.solid.green > .portlet-body {
+  border: 0;
+  color: white;
+}
+.portlet.solid.green > .portlet-title > .caption > i {
+  color: white;
+}
+
+.portlet.box.green {
+  border: 1px solid #4bc75e;
+  border-top: 0;
+}
+.portlet.box.green > .portlet-title {
+  background-color: #35aa47;
+}
+.portlet.box.green > .portlet-title > .caption > i {
+  color: white;
+}
+.portlet.box.green > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #7ad588;
+  color: #8ddc99;
+}
+.portlet.box.green > .portlet-title > .actions .btn-default:hover, .portlet.box.green > .portlet-title > .actions .btn-default:focus, .portlet.box.green > .portlet-title > .actions .btn-default:active, .portlet.box.green > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #a1e2ab;
+  color: #b4e8bc;
+}
+
+
+/***
+Green Seagreen
+***/
+
+/* Portlet */
+.portlet > .portlet-body.green-seagreen,
+.portlet.green-seagreen {
+  background-color: #1ba39c;
+}
+
+.portlet.solid.green-seagreen > .portlet-title,
+.portlet.solid.green-seagreen > .portlet-body {
+  border: 0;
+  color: white;
+}
+.portlet.solid.green-seagreen > .portlet-title > .caption > i {
+  color: white;
+}
+
+.portlet.box.green-seagreen {
+  border: 1px solid #22cfc6;
+  border-top: 0;
+}
+.portlet.box.green-seagreen > .portlet-title {
+  background-color: #1ba39c;
+}
+.portlet.box.green-seagreen > .portlet-title > .caption > i {
+  color: white;
+}
+.portlet.box.green-seagreen > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #4de1da;
+  color: #63e5de;
+}
+.portlet.box.green-seagreen > .portlet-title > .actions .btn-default:hover, .portlet.box.green-seagreen > .portlet-title > .actions .btn-default:focus, .portlet.box.green-seagreen > .portlet-title > .actions .btn-default:active, .portlet.box.green-seagreen > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #78e9e3;
+  color: #8eece8;
+}
+
+
+/***
+Green Haze
+***/
+/* Portlet */
+.portlet > .portlet-body.green-haze,
+.portlet.green-haze {
+  background-color: #44b6ae;
+}
+
+.portlet.solid.green-haze > .portlet-title,
+.portlet.solid.green-haze > .portlet-body {
+  border: 0;
+  color: white;
+}
+.portlet.solid.green-haze > .portlet-title > .caption > i {
+  color: white;
+}
+
+.portlet.box.green-haze {
+  border: 1px solid #67c6bf;
+  border-top: 0;
+}
+.portlet.box.green-haze > .portlet-title {
+  background-color: #44b6ae;
+}
+.portlet.box.green-haze > .portlet-title > .caption > i {
+  color: white;
+}
+.portlet.box.green-haze > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #93d7d2;
+  color: #a6deda;
+}
+.portlet.box.green-haze > .portlet-title > .actions .btn-default:hover, .portlet.box.green-haze > .portlet-title > .actions .btn-default:focus, .portlet.box.green-haze > .portlet-title > .actions .btn-default:active, .portlet.box.green-haze > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #b9e5e2;
+  color: #cbece9;
+}
+
+
+/***********
+Grey Colors
+************/
+/***
+Grey Default
+***/
+
+
+/* Portlet */
+.portlet > .portlet-body.grey,
+.portlet.grey {
+  background-color: #e5e5e5;
+}
+
+.portlet.solid.grey > .portlet-title,
+.portlet.solid.grey > .portlet-body {
+  border: 0;
+  color: #333333;
+}
+.portlet.solid.grey > .portlet-title > .caption > i {
+  color: #333333;
+}
+
+.portlet.box.grey {
+  border: 1px solid white;
+  border-top: 0;
+}
+.portlet.box.grey > .portlet-title {
+  background-color: #e5e5e5;
+}
+.portlet.box.grey > .portlet-title > .caption > i {
+  color: #333333;
+}
+.portlet.box.grey > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid white;
+  color: white;
+}
+.portlet.box.grey > .portlet-title > .actions .btn-default:hover, .portlet.box.grey > .portlet-title > .actions .btn-default:focus, .portlet.box.grey > .portlet-title > .actions .btn-default:active, .portlet.box.grey > .portlet-title > .actions .btn-default.active {
+  border: 1px solid white;
+  color: white;
+}
+
+/***
+Grey Cascade
+***/
+/* Portlet */
+.portlet > .portlet-body.grey-cascade,
+.portlet.grey-cascade {
+  background-color: #95a5a6;
+}
+
+.portlet.solid.grey-cascade > .portlet-title,
+.portlet.solid.grey-cascade > .portlet-body {
+  border: 0;
+  color: white;
+}
+.portlet.solid.grey-cascade > .portlet-title > .caption > i {
+  color: white;
+}
+
+.portlet.box.grey-cascade {
+  border: 1px solid #b1bdbd;
+  border-top: 0;
+}
+.portlet.box.grey-cascade > .portlet-title {
+  background-color: #95a5a6;
+}
+.portlet.box.grey-cascade > .portlet-title > .caption > i {
+  color: white;
+}
+.portlet.box.grey-cascade > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #d2d9d9;
+  color: #e0e5e5;
+}
+.portlet.box.grey-cascade > .portlet-title > .actions .btn-default:hover, .portlet.box.grey-cascade > .portlet-title > .actions .btn-default:focus, .portlet.box.grey-cascade > .portlet-title > .actions .btn-default:active, .portlet.box.grey-cascade > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #eef0f0;
+  color: #fcfcfc;
+}
+
+
+/***
+Grey Silver
+***/
+
+/* Portlet */
+.portlet > .portlet-body.grey-silver,
+.portlet.grey-silver {
+  background-color: #bfbfbf;
+}
+
+.portlet.solid.grey-silver > .portlet-title,
+.portlet.solid.grey-silver > .portlet-body {
+  border: 0;
+  color: white;
+}
+.portlet.solid.grey-silver > .portlet-title > .caption > i {
+  color: white;
+}
+
+.portlet.box.grey-silver {
+  border: 1px solid #d9d9d9;
+  border-top: 0;
+}
+.portlet.box.grey-silver > .portlet-title {
+  background-color: #bfbfbf;
+}
+.portlet.box.grey-silver > .portlet-title > .caption > i {
+  color: white;
+}
+.portlet.box.grey-silver > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #f7f7f7;
+  color: white;
+}
+.portlet.box.grey-silver > .portlet-title > .actions .btn-default:hover, .portlet.box.grey-silver > .portlet-title > .actions .btn-default:focus, .portlet.box.grey-silver > .portlet-title > .actions .btn-default:active, .portlet.box.grey-silver > .portlet-title > .actions .btn-default.active {
+  border: 1px solid white;
+  color: white;
+}
+
+
+/***********
+Red Colors
+************/
+/***
+Red Default
+***/
+
+/* Portlet */
+.portlet > .portlet-body.red,
+.portlet.red {
+  background-color: #d84a38;
+}
+
+.portlet.solid.red > .portlet-title,
+.portlet.solid.red > .portlet-body {
+  border: 0;
+  color: white;
+}
+.portlet.solid.red > .portlet-title > .caption > i {
+  color: white;
+}
+
+.portlet.box.red {
+  border: 1px solid #e07163;
+  border-top: 0;
+}
+.portlet.box.red > .portlet-title {
+  background-color: #d84a38;
+}
+.portlet.box.red > .portlet-title > .caption > i {
+  color: white;
+}
+.portlet.box.red > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #ea9f96;
+  color: #efb3ab;
+}
+.portlet.box.red > .portlet-title > .actions .btn-default:hover, .portlet.box.red > .portlet-title > .actions .btn-default:focus, .portlet.box.red > .portlet-title > .actions .btn-default:active, .portlet.box.red > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #f3c6c0;
+  color: #f7dad6;
+}
+
+
+/***
+Red Pink
+***/
+/* Portlet */
+.portlet > .portlet-body.red-pink,
+.portlet.red-pink {
+  background-color: #e08283;
+}
+
+.portlet.solid.red-pink > .portlet-title,
+.portlet.solid.red-pink > .portlet-body {
+  border: 0;
+  color: white;
+}
+.portlet.solid.red-pink > .portlet-title > .caption > i {
+  color: white;
+}
+
+.portlet.box.red-pink {
+  border: 1px solid #eaabac;
+  border-top: 0;
+}
+.portlet.box.red-pink > .portlet-title {
+  background-color: #e08283;
+}
+.portlet.box.red-pink > .portlet-title > .caption > i {
+  color: white;
+}
+.portlet.box.red-pink > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #f6dcdc;
+  color: #fbf0f0;
+}
+.portlet.box.red-pink > .portlet-title > .actions .btn-default:hover, .portlet.box.red-pink > .portlet-title > .actions .btn-default:focus, .portlet.box.red-pink > .portlet-title > .actions .btn-default:active, .portlet.box.red-pink > .portlet-title > .actions .btn-default.active {
+  border: 1px solid white;
+  color: white;
+}
+
+
+
+/***
+Red Intense
+***/
+
+/* Portlet */
+.portlet > .portlet-body.red-intense,
+.portlet.red-intense {
+  background-color: #e35b5a;
+}
+
+.portlet.solid.red-intense > .portlet-title,
+.portlet.solid.red-intense > .portlet-body {
+  border: 0;
+  color: white;
+}
+.portlet.solid.red-intense > .portlet-title > .caption > i {
+  color: white;
+}
+
+.portlet.box.red-intense {
+  border: 1px solid #ea8686;
+  border-top: 0;
+}
+.portlet.box.red-intense > .portlet-title {
+  background-color: #e35b5a;
+}
+.portlet.box.red-intense > .portlet-title > .caption > i {
+  color: white;
+}
+.portlet.box.red-intense > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #f3baba;
+  color: #f7d0d0;
+}
+.portlet.box.red-intense > .portlet-title > .actions .btn-default:hover, .portlet.box.red-intense > .portlet-title > .actions .btn-default:focus, .portlet.box.red-intense > .portlet-title > .actions .btn-default:active, .portlet.box.red-intense > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #fbe6e6;
+  color: #fefbfb;
+}
+
+
+
+/***
+Red Flamingo
+***/
+/* Portlet */
+.portlet > .portlet-body.red-flamingo,
+.portlet.red-flamingo {
+  background-color: #ef4836;
+}
+
+.portlet.solid.red-flamingo > .portlet-title,
+.portlet.solid.red-flamingo > .portlet-body {
+  border: 0;
+  color: white;
+}
+.portlet.solid.red-flamingo > .portlet-title > .caption > i {
+  color: white;
+}
+
+.portlet.box.red-flamingo {
+  border: 1px solid #f37365;
+  border-top: 0;
+}
+.portlet.box.red-flamingo > .portlet-title {
+  background-color: #ef4836;
+}
+.portlet.box.red-flamingo > .portlet-title > .caption > i {
+  color: white;
+}
+.portlet.box.red-flamingo > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #f7a79e;
+  color: #f9bcb6;
+}
+.portlet.box.red-flamingo > .portlet-title > .actions .btn-default:hover, .portlet.box.red-flamingo > .portlet-title > .actions .btn-default:focus, .portlet.box.red-flamingo > .portlet-title > .actions .btn-default:active, .portlet.box.red-flamingo > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #fbd2cd;
+  color: #fde7e5;
+}
+
+
+/***********
+Yellow Colors
+************/
+/***
+Yellow Default
+***/
+
+/* Portlet */
+.portlet > .portlet-body.yellow,
+.portlet.yellow {
+  background-color: #ffb848;
+}
+
+.portlet.solid.yellow > .portlet-title,
+.portlet.solid.yellow > .portlet-body {
+  border: 0;
+  color: white;
+}
+.portlet.solid.yellow > .portlet-title > .caption > i {
+  color: white;
+}
+
+.portlet.box.yellow {
+  border: 1px solid #ffcc7b;
+  border-top: 0;
+}
+.portlet.box.yellow > .portlet-title {
+  background-color: #ffb848;
+}
+.portlet.box.yellow > .portlet-title > .caption > i {
+  color: white;
+}
+.portlet.box.yellow > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #ffe4b8;
+  color: #ffedd2;
+}
+.portlet.box.yellow > .portlet-title > .actions .btn-default:hover, .portlet.box.yellow > .portlet-title > .actions .btn-default:focus, .portlet.box.yellow > .portlet-title > .actions .btn-default:active, .portlet.box.yellow > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #fff7eb;
+  color: white;
+}
+
+
+/***
+Yellow Gold
+***/
+/* Portlet */
+.portlet > .portlet-body.yellow-gold,
+.portlet.yellow-gold {
+  background-color: #e87e04;
+}
+
+.portlet.solid.yellow-gold > .portlet-title,
+.portlet.solid.yellow-gold > .portlet-body {
+  border: 0;
+  color: white;
+}
+.portlet.solid.yellow-gold > .portlet-title > .caption > i {
+  color: white;
+}
+
+.portlet.box.yellow-gold {
+  border: 1px solid #fb9724;
+  border-top: 0;
+}
+.portlet.box.yellow-gold > .portlet-title {
+  background-color: #e87e04;
+}
+.portlet.box.yellow-gold > .portlet-title > .caption > i {
+  color: white;
+}
+.portlet.box.yellow-gold > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #fcb460;
+  color: #fdbf79;
+}
+.portlet.box.yellow-gold > .portlet-title > .actions .btn-default:hover, .portlet.box.yellow-gold > .portlet-title > .actions .btn-default:focus, .portlet.box.yellow-gold > .portlet-title > .actions .btn-default:active, .portlet.box.yellow-gold > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #fdcb92;
+  color: #fed7ab;
+}
+
+
+/***
+Yellow Casablanca
+***/
+/* Portlet */
+.portlet > .portlet-body.yellow-casablanca,
+.portlet.yellow-casablanca {
+  background-color: #f2784b;
+}
+
+.portlet.solid.yellow-casablanca > .portlet-title,
+.portlet.solid.yellow-casablanca > .portlet-body {
+  border: 0;
+  color: white;
+}
+.portlet.solid.yellow-casablanca > .portlet-title > .caption > i {
+  color: white;
+}
+
+.portlet.box.yellow-casablanca {
+  border: 1px solid #f59c7b;
+  border-top: 0;
+}
+.portlet.box.yellow-casablanca > .portlet-title {
+  background-color: #f2784b;
+}
+.portlet.box.yellow-casablanca > .portlet-title > .caption > i {
+  color: white;
+}
+.portlet.box.yellow-casablanca > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #fac6b4;
+  color: #fbd8cb;
+}
+.portlet.box.yellow-casablanca > .portlet-title > .actions .btn-default:hover, .portlet.box.yellow-casablanca > .portlet-title > .actions .btn-default:focus, .portlet.box.yellow-casablanca > .portlet-title > .actions .btn-default:active, .portlet.box.yellow-casablanca > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #fdeae3;
+  color: #fffcfb;
+}
+
+/***********
+Purple Colors
+************/
+/***
+Purple Default
+***/
+
+/* Portlet */
+.portlet > .portlet-body.purple,
+.portlet.purple {
+  background-color: #8e44ad;
+}
+
+.portlet.solid.purple > .portlet-title,
+.portlet.solid.purple > .portlet-body {
+  border: 0;
+  color: white;
+}
+.portlet.solid.purple > .portlet-title > .caption > i {
+  color: white;
+}
+
+.portlet.box.purple {
+  border: 1px solid #a563c1;
+  border-top: 0;
+}
+.portlet.box.purple > .portlet-title {
+  background-color: #8e44ad;
+}
+.portlet.box.purple > .portlet-title > .caption > i {
+  color: white;
+}
+.portlet.box.purple > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #bf8ed3;
+  color: #c9a1da;
+}
+.portlet.box.purple > .portlet-title > .actions .btn-default:hover, .portlet.box.purple > .portlet-title > .actions .btn-default:focus, .portlet.box.purple > .portlet-title > .actions .btn-default:active, .portlet.box.purple > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #d4b3e1;
+  color: #dec5e8;
+}
+
+/***
+Purple Plum
+***/
+
+/* Portlet */
+.portlet > .portlet-body.purple-plum,
+.portlet.purple-plum {
+  background-color: #8775a7;
+}
+
+.portlet.solid.purple-plum > .portlet-title,
+.portlet.solid.purple-plum > .portlet-body {
+  border: 0;
+  color: white;
+}
+.portlet.solid.purple-plum > .portlet-title > .caption > i {
+  color: white;
+}
+
+.portlet.box.purple-plum {
+  border: 1px solid #a294bb;
+  border-top: 0;
+}
+.portlet.box.purple-plum > .portlet-title {
+  background-color: #8775a7;
+}
+.portlet.box.purple-plum > .portlet-title > .caption > i {
+  color: white;
+}
+.portlet.box.purple-plum > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #c3bad3;
+  color: #d0c9dd;
+}
+.portlet.box.purple-plum > .portlet-title > .actions .btn-default:hover, .portlet.box.purple-plum > .portlet-title > .actions .btn-default:focus, .portlet.box.purple-plum > .portlet-title > .actions .btn-default:active, .portlet.box.purple-plum > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #ded9e7;
+  color: #ebe8f0;
+}
+
+/* custom porlet */
+.portlet {
+	margin-bottom:15px;	
+}
+.portlet.box > .portlet-title {
+	padding: 6px 10px 4px;	
+}
+.portlet > .portlet-title > .caption {
+  float: left ;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 21px; /*  �賣��*/
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+.portlet-body TD {
+	white-space:nowrap;	
+	padding:3px;
+}
+/***
+Customized Bootstrap Labels
+***/
+.label {
+  text-shadow: none !important;
+  font-size: 13px;
+  font-weight: 300;
+  padding: 3px 6px 3px 6px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+.label-info {
+  background-color: #89c4f4;
+}
+.label-danger {
+  background-color: #f3565d;
+}
+.label-danger[href]:hover, .label-danger[href]:focus {
+  background-color: #f0262f;
+}
+/***
+System feeds
+***/
+.feeds {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.feeds li {
+  background-color: #fafafa;
+  margin-bottom: 7px;
+}
+.feeds li:before, .feeds li:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.feeds li:after {
+  clear: both;
+}
+.feeds li:last-child {
+  margin-bottom: 0px;
+}
+.feeds li .col1 {
+  float: left;
+  width: 100%;
+  clear: both;
+}
+.feeds li .col1 > .cont {
+  float: left;
+  margin-right: 75px;
+  overflow: hidden;
+}
+.feeds li .col1 > .cont > .cont-col1 {
+  float: left;
+  margin-right: -100%;
+}
+.feeds li .col1 > .cont > .cont-col1 > .label {
+  display: inline-block;
+  padding: 5px 4px 6px 5px;
+  vertical-align: middle;
+  text-align: center;
+}
+.feeds li .col1 > .cont > .cont-col1 > .label > i {
+  text-align: center;
+  font-size: 14px;
+}
+.feeds li .col1 > .cont > .cont-col2 {
+  float: left;
+  width: 100%;
+}
+.feeds li .col1 > .cont > .cont-col2 > .desc {
+  margin-left: 35px;
+  padding-top: 4px;
+  padding-bottom: 5px;
+  overflow: hidden;
+}
+.feeds li .col2 {
+  float: left;
+  width: 75px;
+  margin-left: -75px;
+}
+.feeds li .col2 > .date {
+  padding: 4px 9px 5px 4px;
+  text-align: right;
+  font-style: italic;
+  color: #7C7C7C;
+}
+
+
+/***
+jQuery Slimscroll
+***/
+.scroller {
+  padding: 0px;
+  margin: 0px;
+  padding-right: 12px;
+  overflow: hidden;
+}
+
+.scroller-footer {
+  margin-top: 10px;
+}
+.scroller-footer:before, .scroller-footer:after {
+  content: " ";
+  display: table;
+}
+.scroller-footer:after {
+  clear: both;
+}
+
+.portlet-body .slimScrollBar {
+  margin-right: 0px;
+}
+

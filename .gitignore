@@ -1,0 +1,40 @@
+### netbeans 
+/build
+/dist
+/nbproject
+
+### svn
+**/.svn/
+/.svn/
+
+HELP.md
+/target
+
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+###mvn
+.mvn
+
+### STS ###
+.classpath
+.project
+.settings
+
+
+
+## big fat file
+##*.jasper
+##*.jrxml
+*.zip
+*.pdf
+*.log
+

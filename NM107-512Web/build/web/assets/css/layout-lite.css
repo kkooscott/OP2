@@ -1,0 +1,133 @@
+
+/***
+Page Header
+***/
+.page-header.navbar {
+  width: 100%;
+  padding: 0 20px 0 20px;
+  margin: 0;
+  border: 0px;
+  padding: 0px;
+  box-shadow: none;
+  height: 46px;
+  min-height: 46px;
+  filter: none;
+  background-image: none;
+  /* Fixed header */
+  /* Header logo */
+  /* Search box */
+  /* Menu Toggler */
+  /* Top menu */
+}
+/*
+.page-header.navbar.navbar-fixed-top {
+  z-index: 9995 !important;
+}
+*/
+
+
+/*** 
+Horizontal Menu 
+***/
+.page-header.navbar {
+  /* Header container */
+  /* Horizontal menu */
+}
+.page-header.navbar .container {
+  position: relative;
+}
+.page-header.navbar .hor-menu {
+  margin: 0;
+  float: left;
+}
+/***
+Page container
+***/
+.page-container {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  /* Fixed header */
+  /* Fixed footer for mobile */
+}
+.page-container:before, .page-container:after {
+  content: " ";
+  display: table;
+}
+.page-container:after {
+  clear: both;
+}
+.page-header-fixed .page-container {
+  margin-top: 46px;
+}
+
+/***
+Page content
+***/
+/* IE8 fix for some elements */
+.ie8 .page-content-wrapper {
+  float: left;
+  width: 100%;
+}
+.ie8 .page-content {
+  padding: 20px;
+  margin-left: 235px;
+  margin-top: 0px;
+  min-height: 600px;
+}
+.ie8 .page-content.no-min-height {
+  min-height: auto;
+}
+.ie8 .page-breadcrumb.breadcrumb > li {
+  margin-right: 1px;
+}
+
+
+/* Page breadcrumb */
+.page-breadcrumb.breadcrumb {
+  box-shadow: none;
+  padding-right: 30px;
+  padding-left: 8px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  border: 0px !important;
+  background-color: #f7f7f7;
+  /* Daterange picker */
+  /* hack for chrome and safari */
+}
+.page-breadcrumb.breadcrumb > li > a,
+.page-breadcrumb.breadcrumb > li > span {
+  color: #666;
+  font-size: 14px;
+  text-shadow: none;
+}
+.page-breadcrumb.breadcrumb > li > i {
+  color: #999;
+  font-size: 14px;
+  text-shadow: none;
+}
+.page-breadcrumb.breadcrumb > li + li:before {
+  display: none;
+}
+
+/* Page content */
+.page-content {
+  margin-top: 0px;
+  padding: 0px;
+  background-color: #fff;
+}
+.page-full-width .page-content {
+  margin-left: 0px !important;
+}
+
+  .page-content-wrapper {
+    float: left;
+    width: 100%;
+  }
+  .page-content-wrapper .page-content {
+    margin-left: 235px;
+    margin-top: 0px;
+    min-height: 600px;
+    padding: 25px 20px 10px 20px;
+  }
+
